@@ -5,6 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imane El Ghabi | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin: 5px 0;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px;
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        #about p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-item h3 {
+            margin: 0;
+            color: #2980b9;
+            font-size: 1.5rem;
+        }
+
+        .experience-item p {
+            margin: 5px 0;
+            color: #7f8c8d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #2c3e50;
+            color: #fff;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,6 +115,7 @@
 
     <section id="about">
         <h2>About Me</h2>
+        <img src="profile.jpg" alt="Imane El Ghabi" class="profile-img">
         <p>I am a PhD student at the University of Amsterdam, specializing in event-based communication algorithms for distributed digital twins. My research is part of the <em>Intelligent Wastewater Treatment: Distributed Digital Twin for Clean Water (DDTclean)</em> project, where I explore how digital twins can enable decentralized ecosystems to operate more efficiently and autonomously. With a foundation in data science, AI, and knowledge representation, I aim to develop solutions that integrate seamlessly into real-world infrastructure.</p>
     </section>
 
@@ -36,22 +131,30 @@
 
     <section id="experience">
         <h2>Experience</h2>
-        <div>
+        <div class="experience-item">
+            <h3>Data Science Intern | OCP Group</h3>
+            <p>May 2022 – Jul 2022 | Benguerir, Morocco</p>
+            <ul>
+                <li>Structured large datasets to enhance the energy efficiency of industrial processes.</li>
+                <li>Designed and implemented machine learning models to predict energy consumption, leading to significant cost savings.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
             <h3>Master Thesis | Phenoma Platform of Agriculture</h3>
             <p>Mar 2024 – Present | Benguerir, Morocco</p>
             <p>Developed a knowledge graph to enhance agricultural data management using NER and Relation Extraction, creating scalable data solutions in plant biology.</p>
         </div>
-        <div>
+        <div class="experience-item">
             <h3>Data Automation Consultant | The World Bank</h3>
             <p>Sep 2023 – Oct 2023 | Rabat, Morocco</p>
             <p>Implemented a data extraction tool that improved pipeline efficiency by 40%, aiding in decision-making with insights from unstructured data.</p>
         </div>
-        <div>
+        <div class="experience-item">
             <h3>Machine Learning Engineer Intern | VOSYN Inc.</h3>
             <p>Jul 2023 – Sep 2023 | Remote, Canada</p>
             <p>Enhanced voice synthesis models to broaden accessibility, reducing user response time by 30% with Tacotron 2, VALL-E, and Tortoise-TTS.</p>
         </div>
-        <div>
+        <div class="experience-item">
             <h3>IT Intern | CERN</h3>
             <p>Jul 2022 – Aug 2022 | Geneva, Switzerland</p>
             <p>Developed RESTful APIs and visualization tools for the ATLAS experiment, facilitating data accessibility for interdisciplinary teams.</p>
