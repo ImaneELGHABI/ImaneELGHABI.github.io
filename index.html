@@ -20,9 +20,6 @@
             color: white;
             padding: 3rem 0;
             text-align: center;
-            background-image: url('https://via.placeholder.com/1500x500?text=Header+Image'); /* Replace with your own image URL */
-            background-size: cover;
-            background-position: center;
         }
 
         header h1 {
@@ -33,6 +30,15 @@
         header p {
             font-size: 1.2rem;
             margin-top: 0.5rem;
+        }
+
+        /* Profile Image Styling */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 1rem;
+            border: 5px solid white;
         }
 
         /* About Me Section */
@@ -130,6 +136,8 @@
 <body>
 
     <header>
+        <!-- Profile Image in Header -->
+        <img src="your-image-url.jpg" alt="Imane El Ghabi" class="profile-image"> <!-- Replace with your image URL -->
         <h1>Imane El Ghabi</h1>
         <p>PhD Researcher in AI, Data Science, and Distributed Digital Twins</p>
     </header>
