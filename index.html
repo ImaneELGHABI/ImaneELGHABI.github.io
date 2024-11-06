@@ -9,49 +9,56 @@
         /* General Styling */
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
+            background-color: #f9f9f9;
             color: #333;
         }
 
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 2rem 0;
+            padding: 3rem 0;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
             margin: 0;
             font-size: 3rem;
-            font-weight: 500;
         }
 
         header p {
             font-size: 1.2rem;
-            font-weight: 300;
-            margin: 0.5rem 0;
+            margin-top: 0.5rem;
         }
 
-        /* Section Styling */
-        .section {
-            margin: 2rem auto;
-            padding: 1.5rem;
+        /* About Me Section */
+        .about-me {
             max-width: 1200px;
+            margin: 3rem auto;
+            padding: 1.5rem;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
 
-        .section h2 {
+        .about-me h2 {
+            font-size: 2.5rem;
             color: #4CAF50;
-            font-size: 2rem;
-            margin-bottom: 1rem;
         }
 
-        .section p {
-            font-size: 1rem;
+        .about-me p {
+            font-size: 1.1rem;
             line-height: 1.6;
+            margin-top: 1rem;
             color: #555;
+        }
+
+        /* Section Title */
+        h2 {
+            font-size: 2rem;
+            margin-top: 2rem;
+            color: #4CAF50;
         }
 
         /* Experience and Projects Section */
@@ -76,21 +83,19 @@
         }
 
         .experience-item h3, .project-item h3 {
-            margin: 0;
             font-size: 1.5rem;
-            font-weight: 500;
             color: #4CAF50;
+            margin-bottom: 0.5rem;
         }
 
         .experience-item p, .project-item p {
             font-size: 1rem;
             color: #333;
-            margin-top: 0.5rem;
         }
 
         /* Contact Info Section */
         .contact-info {
-            background-color: #ffffff;
+            background-color: #fff;
             padding: 1.5rem;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -99,9 +104,7 @@
         }
 
         .contact-info h3 {
-            margin: 0;
             font-size: 1.5rem;
-            font-weight: 500;
             color: #4CAF50;
         }
 
@@ -117,6 +120,7 @@
             padding: 1rem;
             background-color: #4CAF50;
             color: white;
+            margin-top: 3rem;
         }
     </style>
 </head>
@@ -127,30 +131,27 @@
         <p>PhD Researcher in AI, Data Science, and Distributed Digital Twins</p>
     </header>
 
-    <section class="section">
+    <section class="about-me">
         <h2>About Me</h2>
         <p>
-            I am a data scientist with a strong background in machine learning, data analytics, and complex systems. Currently, I am preparing for my PhD at the University of Amsterdam, where I will focus on developing communication algorithms for decentralized digital twins in the field of intelligent wastewater treatment. 
+            I am a data scientist passionate about machine learning, AI, and decentralized systems. My journey has taken me from working on agricultural predictive models to building intelligent systems for environmental sustainability. I am preparing to embark on a PhD at the University of Amsterdam, where my research will focus on developing communication algorithms for decentralized digital twins in intelligent wastewater treatment.
         </p>
         <p>
-            My expertise includes Python, R, SQL, machine learning tools (TensorFlow, Scikit-learn, PyTorch), and cloud technologies (AWS, GCP, Azure). I have previously worked on applications ranging from predictive modeling for agricultural disease detection to constructing knowledge graphs for plant research.
-        </p>
-        <p>
-            I am excited to combine my passion for AI, data science, and environmental sustainability as I embark on my research journey.
+            With a background in Python, R, SQL, and machine learning frameworks (such as TensorFlow, PyTorch, and Scikit-learn), I am excited to contribute to the intersection of data science, AI, and sustainable technologies. 
         </p>
     </section>
 
-    <section class="section">
+    <section class="about-me">
         <h2>PhD Research: Event-based Communication Algorithms for Distributed Digital Twins</h2>
         <p>
-            In my upcoming PhD research, I will explore the development of event-based communication frameworks for digital twins in decentralized ecosystems, specifically focusing on wastewater treatment systems. My research will aim to facilitate knowledge transfer between autonomous systems with varying levels of authorization, using AI, data analytics, and sensor data analysis to optimize performance and sustainability.
+            My upcoming PhD research will explore event-based communication frameworks for decentralized digital twins, focusing on wastewater treatment systems. I will develop systems that support knowledge transfer between autonomous agents with varying authorization levels, leveraging AI, sensor data, and machine learning to improve the sustainability and efficiency of decentralized ecosystems.
         </p>
         <p>
-            As part of the “Intelligent Wastewater Treatment: Distributed Digital Twin for Clean Water (DDTclean)” project, funded by the NWO Merian Fund, my work will directly contribute to enhancing complex infrastructures using innovative AI-driven communication systems.
+            The research is part of the "Intelligent Wastewater Treatment: Distributed Digital Twin for Clean Water (DDTclean)" project, funded by the NWO Merian Fund.
         </p>
     </section>
 
-    <section class="section experience">
+    <section class="experience">
         <h2>Experience</h2>
         <div class="experience-item">
             <h3>Data Automation Consultant, The World Bank</h3>
@@ -169,7 +170,7 @@
         </div>
     </section>
 
-    <section class="section projects">
+    <section class="projects">
         <h2>Selected Projects</h2>
         <div class="project-item">
             <h3>Phenoma Knowledge Graph</h3>
@@ -181,7 +182,7 @@
         </div>
     </section>
 
-    <section class="section contact-info">
+    <section class="contact-info">
         <h3>Contact Information</h3>
         <p>Email: <a href="mailto:imane.elghabi@um6p.ma">imane.elghabi@um6p.ma</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/imane-el-ghabi" target="_blank">linkedin.com/in/imane-el-ghabi</a></p>
