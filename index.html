@@ -124,29 +124,44 @@
             font-style: italic;
             color: #777;
         }
+    
+            /* Education Section Styling */
+    .education-section {
+        max-width: 1200px;
+        margin: 3rem auto;
+        padding: 1.5rem;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    
+    .education-section h2 {
+        font-size: 2.5rem;
+        color: #9b111e; /* Darker red */
+        margin-bottom: 1rem;
+    }
+    
+    .education-item {
+        margin-bottom: 1.5rem;
+    }
+    
+    .education-item .degree {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .education-item .institution {
+        font-size: 1.2rem;
+        color: #666;
+    }
+    
+    .education-item .dates {
+        font-size: 1rem;
+        color: #777;
+        margin-top: 0.5rem;
+    }
 
-        /* Education Section Styling */
-        h3 {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 20px;
-            color: #6c2f2f; /* Dark Red color */
-        }
-        
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        
-        ul li {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        
-        ul li strong {
-            font-weight: bold;
-            color: #333;
-        }
 
         /* Footer */
         footer {
@@ -270,24 +285,29 @@
     </div>
 
 </section>
-        <section class="education">
-        <h2>Education</h2>
-        <p>
-            <strong>PhD in Intelligent Wastewater Treatment - Distributed Digital Twins</strong><br>
-            University of Amsterdam, Netherlands<br>
-            <em>Starting: November 2024</em>
-        </p>
-        <p>
-            <strong>Master of Science in Data Engineering</strong><br>
-            Mohammed VI Polytechnic University, Morocco<br>
-            <em>Graduated: 2024</em>
-        </p>
-        <p>
-            <strong>Bachelor of Science in Data Science</strong><br>
-            Mohammed VI Polytechnic University, Morocco<br>
-            <em>Graduated: 2022</em>
-        </p>
-    </section>
+    <!-- Education Section -->
+<section class="education-section">
+    <h2>Education</h2>
+    
+    <div class="education-item">
+        <p class="degree">PhD in Intelligent Wastewater Treatment - Distributed Digital Twins</p>
+        <p class="institution">University of Amsterdam, Netherlands</p>
+        <p class="dates"><em>Starting: November 2024</em></p>
+    </div>
+
+    <div class="education-item">
+        <p class="degree">Master of Science in Data Engineering</p>
+        <p class="institution">Mohammed VI Polytechnic University, Morocco</p>
+        <p class="dates"><em>Graduated: 2024</em></p>
+    </div>
+
+    <div class="education-item">
+        <p class="degree">Bachelor of Science in Data Science</p>
+        <p class="institution">Mohammed VI Polytechnic University, Morocco</p>
+        <p class="dates"><em>Graduated: 2022</em></p>
+    </div>
+</section>
+
 
 
 
